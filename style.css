@@ -1,0 +1,91 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+} 
+.container{
+	width:80%;
+	margin:auto;
+}
+.row{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+}
+.col{
+	width:30%;
+	padding:10px;
+}
+.card{
+	border:2px solid #000;
+	height:25rem;
+}
+#card2{
+	background-color:#FA2A55;
+	height:25rem;
+	border:none;
+}
+#head1, #head2, #head3{
+	font-size:2rem;
+	font-family: 'Poppins', sans-serif;
+	color:#800080;
+	text-shadow:50px #800080;
+	text-transform:uppercase;
+	text-align:center;
+	padding:15px;
+}
+#head1, #head3{
+	color:#000;
+}
+#head2{
+	color:#FFF;
+}
+.icon, #icon2{
+	font-size:3rem;
+	text-align:center;
+	padding:20px;
+}
+#icon2{
+	color:#FFF;
+	
+}
+.para, #para2{
+	text-align:left;
+	font-family:American Typewriter, serif;
+	font-size:1.3rem;
+	color:#6A5ACD;
+	text-align:center;
+	padding:15px;
+}
+.para{
+	color:#000;
+}
+#para2{
+	color:#FFF;
+}
+.btn{
+	padding-left:20px;
+	padding-top:20px;
+}
+
+#btn1, #btn2, #btn3{
+	
+	padding:10px 80px;
+	display:inline-block;
+	border:none;
+	color:white;
+	font-size:15px;
+	border-radius:20px;
+	font-weight:bold;
+}
+#btn2{
+	background-color:#FFF;
+	color:#FA2A55;
+}
+#btn1,#btn3{
+	background-color:#000;
+}
+
+button:hover{
+	background-color:purple;
+}
